@@ -120,18 +120,13 @@ export default function LoginPageColouredPage() {
                         </Heading>
                       </a>
                       <Button
-                          color="blue_gray_800_01"
-                          size="md"
-                          className="ml-[114px] mt-6 min-w-[110px] self-start rounded- [5px] font-roboto font-bold tracking-[0.64px] md:ml-0"
-                        >
-                      <Link
-                        to="/Homepagecoloured"
-                        className=""
+                        color="blue_gray_800_01"
+                        size="md"
+                        className="ml-[114px] mt-6 min-w-[110px] self-start rounded- [5px] font-roboto font-bold tracking-[0.64px] md:ml-0"
                       >
-                        
+                        <Link to="/Homepagecoloured" className="">
                           Sign in
-                        
-                      </Link>
+                        </Link>
                       </Button>
                     </div>
                   </div>
@@ -173,7 +168,11 @@ export default function LoginPageColouredPage() {
                   <span className="text-black-900">
                     Don't have an account?&nbsp;
                   </span>
-                  <span className="font-semibold text-black-900">Sign up</span>
+                  <a href="/registerpagecoloured">
+                    <span className="font-semibold text-black-900">
+                      Sign up
+                    </span>
+                  </a>
                 </Text>
               </div>
             </Tabs>
