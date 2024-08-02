@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Text } from "./..";
+import { Heading, Text, Img } from "./..";
 
 export default function CaregiverProfile({
   headlineText = "Caregivers are essential workers. It&#39;s time we recognize them as such",
@@ -7,13 +7,21 @@ export default function CaregiverProfile({
   categoryText = "News",
   descriptionText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...",
   readMoreLink = "Read More",
+  src = "images/img_1_52.png",
   ...props
 }) {
   return (
-    <div {...props} className={`${props.className} flex flex-col items-center w-[32%] md:w-full gap-6 bg-white-a700`}>
-      <div className="h-[400px] w-[400px] bg-gray-300" />
+    <div
+      {...props}
+      className={`${props.className} flex flex-col items-center w-[32%] md:w-full gap-6 bg-white-a700`}
+    >
+      {/* <div className="h-[400px] w-[400px] bg-gray-300" /> */}
+      <Img className="h-[400px] w-[400px]" src={src} alt="Community Feedback" />
       <div className="mx-3.5 mb-[26px] flex flex-col items-start gap-[18px] self-stretch">
-        <Heading as="h4" className="w-full !text-[24px] capitalize leading-[38px] !text-blue_gray-900_01">
+        <Heading
+          as="h4"
+          className="w-full !text-[24px] capitalize leading-[38px] !text-blue_gray-900_01"
+        >
           {headlineText}
         </Heading>
         <div className="flex items-center self-stretch">
@@ -21,7 +29,11 @@ export default function CaregiverProfile({
             {dateText}
           </Text>
           <div className="ml-1.5 h-[4px] w-[4px] rounded-sm bg-gray-600_01" />
-          <Text size="textxs" as="p" className="ml-2 !text-[14px] !text-gray-600_01">
+          <Text
+            size="textxs"
+            as="p"
+            className="ml-2 !text-[14px] !text-gray-600_01"
+          >
             {categoryText}
           </Text>
         </div>
@@ -29,7 +41,11 @@ export default function CaregiverProfile({
           {descriptionText}
         </Text>
         <a href="#">
-          <Heading size="headingxs" as="h6" className="text-[16px] !font-bold !text-gray-600">
+          <Heading
+            size="headingxs"
+            as="h6"
+            className="text-[16px] !font-bold !text-gray-600"
+          >
             {readMoreLink}
           </Heading>
         </a>
