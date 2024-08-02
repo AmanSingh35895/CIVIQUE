@@ -4,46 +4,50 @@ import React, { Suspense } from "react";
 
 const data = [
     {
-        headlineText: "Caregivers are essential workers. It's time we recognize them as such",
-        dateText: "14 Feb",
+        headlineText: "Riverside Park Development",
+        dateText: "14 April",
         categoryText: "News",
         descriptionText: (
             <>
-                Lorem ipsum dolor sit amet, consec tetur adipis
-                <br />
-                cing elit, sed do eiusmod...
+                Excited about the #RiversideParkDevelopment! Love the plans for more
+                
+                 green spaces and community areas. Can't wait to see this project come 
+                 
+                 to life!
+                 <br /> #UrbanPlanning #Civique
             </>
         ),
+        src:"images/img_1_52.png",
         readMoreLink: "Read More",
     },
     {
-        headlineText: "Caregivers are essential workers. It's time we recognize them as such",
-        dateText: "14 Feb",
+        headlineText: "Community Connect Plaza",
+        dateText: "14 May",
         categoryText: "News",
         descriptionText: (
             <>
-                Lorem ipsum dolor sit amet, consec tetur adipis
-                <br />
-                cing elit, sed do eiusmod...
+                Excited for the #CommunityConnectPlaza! A new hub for social
+                gatherings, events, and activities. It's going to be the heart of our neighborhood! 
+                <br /> #CommunityEngagement #Civique
             </>
         ),
+        src:"images/img_8_1.png",
         readMoreLink: "Read More",
     },
     {
-        headlineText: "Caregivers are essential workers. It&#39;s time we recognize them as such",
-        dateText: "14 Feb",
+        headlineText: "Heritage Revival Project",
+        dateText: "24 Feb",
         categoryText: "News",
         descriptionText: (
             <>
-                Lorem ipsum dolor sit amet, consec tetur adipis
-
-                < br />
-
-                cing elit, sed do eiusmod...
+                Thrilled about the #HeritageRevivalProject! Preserving 
+                <br />our history while making spaces vibrant and accessible. Can't wait to see the transformation! 
+                <br /> #UrbanPlanning #Civique
 
             </>
 
         ),
+        src:"images/img_4_1.png",
         readMoreLink: "Read More",
     },
 ];
@@ -56,7 +60,7 @@ export default function HomepagecolouredColumnEight() {
                     <Heading
                         size="heading2xl"
                         as="h2"
-                        className="!text-[48px] ! font-bold capitalize ! text-blue_gray-900_01 md:!text-[44px] sm:!text-[38px]"
+                        className="!text-[48px] !font-bold capitalize !text-blue_gray-900_01 md:!text-[44px] sm:!text-[38px]"
                     >
 
                         Community Feedback
@@ -64,9 +68,7 @@ export default function HomepagecolouredColumnEight() {
                     </Heading>
 
                     <Text as="p" className="w-full leading-[26px] !text-gray-600_01">
-                        augue sed elit blandit euismod ut in egestas. Habitant eget ut ipsum s
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus magna enim id integer congue eu. Tempor urna
-                        62
+                    Engage with the community and amplify your voice in local projects. Join  Community Feedback section to <br /><span className="ml-[200px]">share insights and opinions on local initiatives</span>
                     </Text>
 
                 </div>

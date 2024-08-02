@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import { Text, Button, CheckBox, Heading, Input, SelectBox, Img } from "../../components";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const dropDownOptions = [
     { label: "Option1", value: "option1" },
@@ -11,10 +12,10 @@ const dropDownOptions = [
 export default function RegisterPageColouredPage() {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Rishi Rishav's Application2</title>
                 <meta name="description" content="web site created using create-react-app" />
-            </Helmet>
+            </Helmet> */}
             <div className="w-full bg-white-a700 py-[30px] sm:py-5">
                 <div className="mb-[46px] flex items-center gap-[50px] md:flex-col">
                     <div className="flex w-[38%] flex-col gap-48 md:w-full md:gap-36 md:p-5 sm:gap-24">
@@ -23,7 +24,7 @@ export default function RegisterPageColouredPage() {
                             alt="Logocivique"
                             className="ml-16 h-[62px] w-[14%] object-contain md:ml-0"
                         />
-                        <div>
+                        <div className="mb-[200px]">
                             <Img
                                 src="images/img_image_left_side.png"
                                 alt="Imageleftside"
@@ -36,10 +37,10 @@ export default function RegisterPageColouredPage() {
                             <Heading size="headingxl" as="h1" className="mt-[42px] !font-merriweathersans !text-black-900">
                                 Create your account!
                             </Heading>
-                            <Heading size="headinglg" as="h2" className="mt-10 self-start !font-inter ! text-black-900">
+                            <Heading size="headinglg" as="h2" className="mt-10  self-start !font-inter !text-black-900 pl-7">
                                 Personal Details
                             </Heading>
-                            <div className="mr-2 mt-[18px] flex w- [92%] justify-center md:mr-0 md:w-full md:p-5">
+                            <div className="mr-2 mt-[18px] flex w-[92%] justify-center md:mr-0 md:w-full md:p-5">
                                 <div className="flex w-full flex-col gap-5">
                                     <div className="flex gap-[42px] md:flex-col">
                                         <Input shape="square" type="text" name="firstName" placeholder={`First Name`} className="w-full" />
@@ -68,11 +69,11 @@ export default function RegisterPageColouredPage() {
                                         />
                                         <SelectBox
                                             shape="round"
-                                            indicator={<Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px]" />}
+                                            indicator={<Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px] pl-1" />}
                                             getOptionLabel={(e) => (
                                                 <>
                                                     <div className="flex items-center">
-                                                        <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[16px] w- [16px]" />
+                                                        {/* <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[30px] w-[20px]" /> */}
                                                         <span>{e.label}</span>
                                                     </div>
                                                 </>
@@ -80,15 +81,15 @@ export default function RegisterPageColouredPage() {
                                             name="value"
                                             placeholder={`Gender`}
                                             options={dropDownOptions}
-                                            className="ml-[42px] w-[14%] gap-1 font-roboto font-bold md:ml-0 md:w-full"
+                                            className="ml-[42px] w-[14%] gap-1 font-roboto font-bold md:ml-0 md:w-full bg-blue_gray-800_01 h-[30px] pl-4"
                                         />
                                         <SelectBox
                                             shape="round"
-                                            indicator={<Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px]" />}
+                                            indicator={<Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px] pl-1" />}
                                             getOptionLabel={(e) => (
                                                 <>
                                                     <div className="flex items-center">
-                                                        <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[16px] w-[16px]" />
+                                                        {/* <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[30px] w-[30px]" /> */}
                                                         <span>{e.label}</span>
                                                     </div>
                                                 </>
@@ -97,12 +98,12 @@ export default function RegisterPageColouredPage() {
                                             name="preferred"
                                             placeholder={"Preferred Contact Method"}
                                             options={dropDownOptions}
-                                            className="ml-[18px] w-[32%] gap-1 font-roboto font-bold md:ml-0 md:w-full"
+                                            className="ml-[18px] w-[32%] gap-1 font-roboto font-bold md:ml-0 md:w-full bg-blue_gray-800_01 h-[30px] pl-4"
                                         />
                                     </div>
                                 </div>
                             </div>
-                            <div className="mr-2 mt-12 flex w- [92%] flex-col items-start gap-[18px] md:mr-0 md:w-full md:p-5">
+                            <div className="mr-2 mt-12 flex w-[92%] flex-col items-start gap-[18px] md:mr-0  md:w-full md:p-5">
                                 <Heading size="headinglg" as="h3" className="!font-inter !text-black-900">
                                     Address Details
                                 </Heading>
@@ -114,15 +115,15 @@ export default function RegisterPageColouredPage() {
                                     <div className="flex gap-[42px] md:flex-col">
                                         <Input shape="square" name="country" placeholder={`Country`} className="w-full" />
                                         <div className="flex w-full items-center justify-between gap-5">
-                                            <Input shape="square" name="pincode_one" placeholder={`PIN`} className="w-[26%]" />
+                                            <Input shape="square" name="pincode_one" placeholder={`PIN`} className="w-[26%] !text-white !placeholder:text-white" />
+                                                            {/* <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[30px] w-[30px] bg-green-700" /> */}
                                             <SelectBox
                                                 shape="round"
                                                 indicator={
-                                                    <Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px]" />}
+                                                    <Img src="images/img_arrowdown.svg" alt="Arrow Down" className="h-[16px] w-[16px] pl-1" />}
                                                 getOptionLabel={(e) => (
                                                     <>
                                                         <div className="flex items-center">
-                                                            <Img src="images/img_lefticon.svg" alt="Lefticon" className="h-[16px] w-[16px]" />
                                                             <span>{e.label}</span>
                                                         </div>
                                                     </>
@@ -130,7 +131,7 @@ export default function RegisterPageColouredPage() {
                                                 name="preferred_one"
                                                 placeholder={`Educational Qualification`}
                                                 options={dropDownOptions}
-                                                className="w- [64%] gap-1 font-roboto font-bold"
+                                                className="h-[30px] w-[64%] gap-1 font-roboto font-bold bg-blue_gray-800_01 pl-4"
                                             />
                                         </div>
                                     </div>
@@ -142,7 +143,7 @@ export default function RegisterPageColouredPage() {
                                     className="self-stretch"
                                 />
                             </div>
-                            <div className="mr-2 mt-12 flex w- [92%] flex-col items-start md:mr-0 md:w-full md:p-5">
+                            <div className="mr-2 mt-12 flex w-[92%] flex-col items-start md:mr-0 md:w-full md:p-5">
                                 <div className="self-stretch">
                                     <div className="flex flex-col items-start gap-2">
                                         <a href="#">
@@ -181,7 +182,7 @@ export default function RegisterPageColouredPage() {
                                 </Button>
                                 <Text size="textmd" as="p" className="mt-3 !font-inter ! text-black-900">
                                     <span className="text-black-900">Do you have an account?&nbsp;</span>
-                                    <span className="font-semibold text-black-900">Sign in</span>
+                                    <Link to="/" className="font-semibold text-black-900 inline ">Sign in</Link>
                                 </Text>
                             </div>
                         </div>

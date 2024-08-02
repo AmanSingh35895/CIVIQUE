@@ -42,7 +42,7 @@ module.exports = {
           a700: "#d51f00",
         },
         deep_purple: { a200: "#9747ff" },
-        gray :{
+        gray: {
           50: "#f9f9f9",
           100: "#f6f6f6",
           200: "#ebebeb",
@@ -70,29 +70,38 @@ module.exports = {
           "900_cc": "#06163acc",
         },
         green: {
-          600: "#319f43"
+          600: "#319f43",
         },
         indigo: {
           50: "#e7e7ef",
           400: "#587dbd",
-          600: "#423cb9"
+          600: "#423cb9",
         },
         pink: {
-          100: "#e2b4c1"
+          100: "#e2b4c1",
         },
         red: {
           300: "#e4897b",
           600: "#e33629",
-          800: "#aa473d"
+          800: "#aa473d",
         },
         teal: { 50: "#d7e5f0" },
-        white: { a700: "#ffffff", a700_01: "#fcfcff", a700_33: "#ffffff33", a700_e5: "#ffffffe5" },
+        white: {
+          a700: "#ffffff",
+          a700_01: "#fcfcff",
+          a700_33: "#ffffff33",
+          a700_e5: "#ffffffe5",
+        },
       },
-      boxShadow: { xs: "0 48px 120px 0 #bababa3f", sm: "0 4px 4px 0 #0000003f" },
+      boxShadow: {
+        xs: "0 48px 120px 0 #bababa3f",
+        sm: "0 4px 4px 0 #0000003f",
+      },
       backgroundImage: {
+        gradient: "linear-gradient(180deg, #ffffff33,#ffffff33)",
+        gradient1: "linear-gradient(180deg, #9a96a4, #e2b4c1)",
       },
-      gradient: "linear-gradient(180deg, #ffffff33,#ffffff33)",
-      gradient1: "linear-gradient(180deg, #9a96a4, #e2b4c1)",
+
       fontFamily: {
         inter: "Inter",
         mulish: "Mulish",

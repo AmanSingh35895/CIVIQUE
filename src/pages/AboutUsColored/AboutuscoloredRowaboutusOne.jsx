@@ -12,9 +12,9 @@ export default function AboutuscoloredRowaboutusOne() {
           </Heading>
           <Text as="p" className="leading-[26px]">
             <>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus ut condimentum{" "}
-              <br />
-              feugiat at urna eu donec. Blandit suscipit ir company
+              Discover our commitment to enhancing community engagement and
+              participatory <br />
+              democracy through innovative platforms.
             </>
           </Text>
         </div>

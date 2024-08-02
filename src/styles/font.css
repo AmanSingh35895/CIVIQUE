@@ -1,7 +1,7 @@
-/* @font-face{
+@font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MerriweatherSansRomanBold.ttf");
     font-display: "Meriweather Sans";
     font-weight: 700;
 }
@@ -9,7 +9,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/InterBold.ttf");
     font-display: "Inter";
     font-weight: 700;
 }
@@ -17,7 +17,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/InterRegular.ttf");
     font-display: "Inter";
     font-weight: 400;
 }
@@ -25,7 +25,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/RobotoRomanBold.ttf");
     font-display: "Roboto";
     font-weight: 700;
 }
@@ -33,7 +33,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/RobotoRegular.ttf");
     font-display: "Roboto";
     font-weight: 400;
 }
@@ -41,7 +41,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/InterSemiBold.ttf");
     font-display: "Inter";
     font-weight: 600;
 }
@@ -49,7 +49,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/OpenSansRomanBold.ttf");
     font-display: "Open Sans";
     font-weight: 700;
 }
@@ -57,7 +57,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MulishBold.ttf");
     font-display: "Mullish";
     font-weight: 700;
 }
@@ -65,7 +65,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MulishRegular.ttf");
     font-display: "Mullish";
     font-weight: 400;
 }
@@ -73,7 +73,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MulishSemiBold.ttf");
     font-display: "Mullish";
     font-weight: 600;
 }
@@ -81,7 +81,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/PlusJakartaSansRomanSemiBold.ttf");
     font-display: "Plus Jakarta Sans";
     font-weight: 600;
 }
@@ -89,7 +89,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MulishSemiBold.ttf");
     font-display: "Mullish";
     font-weight: 600;
 }
@@ -97,7 +97,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/LatoRegular.ttf");
     font-display: "Lato";
     font-weight: 400;
 }
@@ -105,7 +105,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/RobotoBlack.ttf");
     font-display: "Roboto";
     font-weight: 900;
 }
@@ -113,7 +113,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/MulishRomanLight.ttf");
     font-display: "Mullish";
     font-weight: 300;
 }
@@ -121,7 +121,7 @@
 @font-face{
     font-display: swap;
     font-style: normal;
-    src: url("../../public/fonts");
+    src: url("/public/fonts/InterMedium.ttf");
     font-display: "Inter";
     font-weight: 500;
-} */
+}

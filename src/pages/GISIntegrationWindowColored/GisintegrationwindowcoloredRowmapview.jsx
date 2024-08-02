@@ -1,6 +1,7 @@
 import { Text, Heading } from "../../components";
 
 import React from "react";
+import BasicMap from "../../Components/Leaflet/basic";
 
 export default function GisintegrationwindowcoloredRowmapview() {
   return (
@@ -12,11 +13,15 @@ export default function GisintegrationwindowcoloredRowmapview() {
           </Heading>
           <Text as="p" className="leading-[26px]">
             <>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus ut condimentum <br />
-              feugiat at urna eu donec. Blandit suscipit ir company
+              Visualize and interact with our GIS data on a map, providing a
+              clear and <br /> intuitive way to understand complex geographic
+              information.
             </>
           </Text>
         </div>
+      </div>
+      <div className="MAP p-5 m-auto">
+        <BasicMap />
       </div>
     </div>
   );

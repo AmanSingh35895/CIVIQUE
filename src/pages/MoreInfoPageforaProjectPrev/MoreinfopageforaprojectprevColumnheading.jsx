@@ -21,7 +21,7 @@ export default function MoreinfopageforaprojectprevColumnheading() {
           />
         </div>
       </div>
-      <div className="flex w- [96%] gap-10 md:w-full md:flex-col">
+      <div className="flex w-[96%] gap-10 md:w-full md:flex-col">
         <UserProfile1 />
         <UserProfile1 />
       </div>

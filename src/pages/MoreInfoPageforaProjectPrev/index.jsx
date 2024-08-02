@@ -13,13 +13,13 @@ import React from "react";
 export default function MoreInfoPageforaProjectPrevPage() {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Rishi Rishav&#39;s Application2</title>
                 <meta
                     name="description"
                     content="web site created using create-react-app"
                 />
-            </Helmet>
+            </Helmet> */}
             <div className="w-full bg-white-a700">
                 <Header />
                 <div>

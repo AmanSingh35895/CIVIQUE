@@ -14,25 +14,25 @@ const data = [
     {
         highlightedText: "Highlighted Projects",
         descriptionText:
-            "Lorem ipsum dolor sit amet, virox consectetur adipiscing elit. Lacus ut condimentum feugiat at urn et.",
+            "Community engagement and participatory democracy transformed this area into a thriving urban development.",
         moreInfoText: "More info ",
     },
     {
         highlightedText: "Current Projects",
         descriptionText:
-            "Lorem ipsum dolor sit amet, virox consectetur adipiscing elit. Lacus ut condimentum feugiat at urn et.",
+            "Local governments are involving communities in urban planning for transparency and sustainability.",
+        moreInfoText: "More info ",
+    },
+    {
+        highlightedText: "Community Feedback",
+        descriptionText:
+            "Community feedback shapes urban development projects through participatory democracy and public consultation",
         moreInfoText: "More info ",
     },
     {
         highlightedText: "Upcoming Events",
         descriptionText:
-            "Lorem ipsum dolor sit amet, virox consectetur adipiscing elit. Lacus ut condimentum feugiat at urn et.",
-        moreInfoText: "More info ",
-    },
-    {
-        highlightedText: "Upcoming Events",
-        descriptionText:
-            "Lorem ipsum dolor sit amet, virox consectetur adipiscing elit. Lacus ut condimentum feugiat at urn et.",
+            "Join community events, have a say in local government decisions, and shape city planning projects",
         moreInfoText: "More info ",
     },
 ];
@@ -40,10 +40,10 @@ const data = [
 export default function HomePageColouredPage() {
     return (
         <>
-            <Helmet>
+            {/* <Helmet>
                 <title>Rishi Rishav&#39;s Application2</title>
                 <meta name="description" content="Web site created using create-react-app" />
-            </Helmet>
+            </Helmet> */}
             <div className="w-full bg-white-a700">
                 <Header />
                 <div className="flex flex-col gap-44 md:gap-[132px] sm:gap-[88px]">

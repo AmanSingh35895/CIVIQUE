@@ -9,15 +9,12 @@ export default function AboutuscoloredRowtakeonnew() {
           <Heading
             size="heading2xl"
             as="h2"
-            className="!text-[48px] ! font-bold capitalize md: !text-[44px] sm:!text-[38px]"
+            className="!text-[48px] ! font-bold capitalize md:!text-[44px] sm:!text-[38px]"
           >
-            Take on New Challenges
+            Embrace New Opportunities
           </Heading>
           <Text as="p" className="mt-6 self-stretch text-center leading-[26px]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus magna enim id integer congue eu. Tempor urna
-            augue sed elit blandit euismod ut in egestas. Habitant eget ut ipsum sapien senectus ut sed. Congue felis
-            dolor nisi fringilla ut id erat feugiat nibh. Ultricies tincidunt morbi imperdiet elementum lorem risus
-            sagittis sit et.
+          Enhancing Urban Development through Community Feedback and Collaboration — Balancing the needs of a growing population with sustainable practices. Our platform ensures inclusive planning, efficient resource management, and the promotion of green spaces for a better future.
           </Text>
           <Button color="deep_orange_A700" shape="square" className="mt-14 min-w-[186px] font-bold">
             Join Volunteer
