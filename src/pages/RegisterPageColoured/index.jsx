@@ -12,10 +12,6 @@ const dropDownOptions = [
 export default function RegisterPageColouredPage() {
     return (
         <>
-            {/* <Helmet>
-                <title>Rishi Rishav's Application2</title>
-                <meta name="description" content="web site created using create-react-app" />
-            </Helmet> */}
             <div className="w-full bg-white-a700 py-[30px] sm:py-5">
                 <div className="mb-[46px] flex items-center gap-[50px] md:flex-col">
                     <div className="flex w-[38%] flex-col gap-48 md:w-full md:gap-36 md:p-5 sm:gap-24">
